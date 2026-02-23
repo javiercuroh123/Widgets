@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Widgets" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Widgets" parent="Base.Theme.Widgets" />
+
+    <style name="btnPrimero" parent="Widget.Material3.Button">
+        <item name ="backgroundTint">@color/primer </item>
+        <item name ="cornerRadius">0dp</item>
+        <item name="strokeWidth">5dp</item>
+    </style>
+
+    <style name="btnSegundo" parent="Widget.Material3.Button">
+        <item name ="backgroundTint">@color/segundo </item>
+    </style>
+
+    <style name="btnTercero" parent="Widget.Material3.Button">
+        <item name ="backgroundTint">@color/tercero </item>
+    </style>
+
+</resources>
