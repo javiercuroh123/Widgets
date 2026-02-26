@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">widgets</string>
+    <string name="terminos">
+        여러분은 겨울을 좋아하세요? 저는 겨울을 별로 좋아하지 않아요. 추위를 많이 타는 저에게 겨울은 사계절 중 가장 힘든 계절이에요. 게다가 겨울에는 낮이 짧고 밤이 길어서 다른 계절보다 우울한 느낌이 들어요.
+    </string>
 </resources>

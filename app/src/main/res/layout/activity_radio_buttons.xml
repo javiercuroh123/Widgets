@@ -80,7 +80,7 @@
 
     </RadioGroup>
     <EditText
-        android:id="@+id/edGraficas"
+        android:id="@+id/edGrafica"
         android:hint="Precio de Tarjetas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
@@ -91,6 +91,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
+        android:id="@+id/calcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Calcular precio total" />

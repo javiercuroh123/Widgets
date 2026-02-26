@@ -70,5 +70,29 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnRViews.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), RecyclerViews.class);
+                startActivity(intent);
+            }
+        });
+
+        btnSwitchs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Switchs.class);
+                startActivity(intent);
+            }
+        });
+
+        btnToats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Toats.class);
+                startActivity(intent);
+            }
+        });
     }
 }
